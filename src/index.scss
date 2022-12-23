@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto';
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+}
+
+.App__btn  {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: 0.3s ease opacity;
+  
+  &.active {
+    opacity: 0;
+  }
+}
