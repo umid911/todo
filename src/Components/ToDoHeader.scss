@@ -17,5 +17,13 @@
     &__icon {
         margin-right: 21px;
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+    }
+    &__switcher {
+        border: none;
+        outline: none;
+        cursor: pointer;
     }
 }
